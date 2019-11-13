@@ -10,7 +10,6 @@ class TensorFlowConan(ConanFile):
     topics = ("conan", "tensorflow", "ML")
     url = "https://github.com/bincrafters/conan-tensorflow"
     homepage = "The core open source library to help you develop and train ML models"
-    author = "Bincrafters <bincrafters@gmail.com>"
     license = "Apache-2.0"
     exports = ["LICENSE.md"]
     settings = "os", "arch", "compiler", "build_type"
