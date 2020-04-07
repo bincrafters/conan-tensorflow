@@ -11,7 +11,6 @@ class TensorFlowConan(ConanFile):
     url = "https://github.com/bincrafters/conan-tensorflow"
     homepage = "The core open source library to help you develop and train ML models"
     license = "Apache-2.0"
-    exports = ["LICENSE.md"]
     settings = "os", "arch", "compiler", "build_type"
     options = {"shared": [True, False], "fPIC": [True, False]}
     default_options = {"shared": False, "fPIC": True}
